@@ -121,6 +121,7 @@ Content-Type: application/json
 {
     "name": "Player 3"
 }
+```
 Output will be -
 ```
 {
