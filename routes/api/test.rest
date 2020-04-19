@@ -3,33 +3,33 @@ POST http://localhost:8080
 Content-Type: application/json
 
 {
-    "name": "deo",
-    "score": "800"
+    "name": "Player 7",
+    "score": "421"
 }
 
 ###
 GET http://localhost:8080
 ###
-GET http://localhost:3000/des
+GET http://localhost:8080/des
 ###
-GET http://localhost:3000/date
+GET http://localhost:8080/date
 ###
-GET http://localhost:3000/5e9b6f4969ef057642bc2802
+GET http://localhost:8080/5e9c60c880dd1132c6cb8a38
 
 ###
-GET  http://localhost:3000/name
+GET  http://localhost:8080/name
 Content-Type: application/json
 
 {
-    "name": "deo"
+    "name": "Player 3"
 }
 
 ###
-DELETE http://localhost:3000
+DELETE http://localhost:8080
 Content-Type: application/json
 
 {
-    "name": "deo"
+    "name": "Player 3"
 }
 ###
-DELETE http://localhost:3000/5e9b6f4669ef057642bc2801
+DELETE http://localhost:8080/5e9c60c880dd1132c6cb8a38
