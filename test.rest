@@ -26,10 +26,13 @@ Content-Type: application/json
 
 ###
 DELETE http://localhost:8080
+```
 Content-Type: application/json
 
 {
     "name": "Player 3"
+}
+```
 }
 ###
 DELETE http://localhost:8080/5e9c60c880dd1132c6cb8a38
