@@ -1,0 +1,28 @@
+{
+  "name": "anders-scoreboard-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humayun-rashid/anders-scoreboard-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/humayun-rashid/anders-scoreboard-challenge/issues"
+  },
+  "homepage": "https://github.com/humayun-rashid/anders-scoreboard-challenge#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "config": "^3.3.1",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.9",
+    "morgan": "^1.10.0"
+  }
+}
